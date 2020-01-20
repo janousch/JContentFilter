@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "J Content Browser",
+  "Description": "Content Browser filter for inappropriate textures.\nShows all textures without power of two and are not UI textures.",
+  "Category": "Editor",
+  "CreatedBy": "Ramon Janousch",
+  "CreatedByURL": "https://www.ramonjanousch.com/",
+  "DocsURL": "https://docs.unrealengine.com/en-US/Engine/Content/Types/Textures/Importing/index.html",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EngineVersion": "4.24.0",
+  "CanContainContent": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "JContentBrowser",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Win64",
+        "Win32",
+        "Linux"
+      ]
+    }
+  ]
+}
