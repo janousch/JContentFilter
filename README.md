@@ -37,7 +37,7 @@ Unreal Engine 4 Content Filter for inappropiate textures. The filter will list a
 <img src="./GithubImages/InappropiateTextureSample.png" align="left"
      title="Inappropiate Texture Sample 1" width="494" height="406">
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ### More Information
