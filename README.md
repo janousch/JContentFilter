@@ -2,21 +2,20 @@
 
 ## About
 
-<img src="./GithubImages/PluginBrowser.png" align="right"
-     title="Oculus Go" width="1250" height="201">
-
 This plugin adds a filter to the content browser so that it shows inappropiate textures.
 Unreal Engine 4 Content Filter for inappropiate textures. The filter will list all textures without a power of two and not marked as UI textures.
+<img src="./GithubImages/PluginBrowser.PNG" align="left"
+     title="Plugin Browser" width="1250" height="201">
 
-
-
+<br>
+<br>
 ## [How It Works](https://youtu.be/JsO7D6tR1l4)
 
 1. Clone the repository into your projects Plugins folder under /JContentFilter. Make sure the version matches the Unreal version of your project.
   (Optional if the correct UE4 version is missing)
-  1.2 Clone from the master branch or delete the Binaries and Intermediate folder in /JContentFilter
-  1.3 Generate visual studio project files
-  1.4 Compile the solution
+<br>     1.2 Clone from the master branch or delete the Binaries and Intermediate folder in /JContentFilter
+<br>     1.3 Generate visual studio project files
+<br>     1.4 Compile the solution
 2. Open your project select the filter in the Content Browser: Filters -> Other Filters -> Inappropiate Textures
 
 
@@ -26,6 +25,14 @@ Unreal Engine 4 Content Filter for inappropiate textures. The filter will list a
 * Use it to find textures in your project where you can't use mip mapping
 * Use it to find textures in your project where you forgot to mark them as UI textures
 * Use it to create your own Content Filter Plugin
+
+<img src="./GithubImages/SelectFilter.png" align="left"
+     title="Select Filter" width="400" height="519">
+<img src="./GithubImages/InappropiateTextureSample.png" align="left"
+     title="Inappropiate Texture Sample 1" width="494" height="406">
+<img src="./GithubImages/InappropiateTexturesSample2.PNG" align="left"
+     title="Inappropiate Texture Sample 2" width="206" height="798">
+
 
 ### More Information
 https://docs.unrealengine.com/en-US/Engine/Content/Types/Textures/Importing/index.html
