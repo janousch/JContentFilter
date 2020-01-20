@@ -5,10 +5,10 @@
 This plugin adds a filter to the content browser so that it shows inappropiate textures.
 Unreal Engine 4 Content Filter for inappropiate textures. The filter will list all textures without a power of two and not marked as UI textures.
 <img src="./GithubImages/PluginBrowser.PNG" align="left"
-     title="Plugin Browser" width="1250" height="201">
+     title="Plugin Browser" width="938" height="151">
+<br>
+<br>
 
-<br>
-<br>
 ## [How It Works](https://youtu.be/JsO7D6tR1l4)
 
 1. Clone the repository into your projects Plugins folder under /JContentFilter. Make sure the version matches the Unreal version of your project.
@@ -26,12 +26,18 @@ Unreal Engine 4 Content Filter for inappropiate textures. The filter will list a
 * Use it to find textures in your project where you forgot to mark them as UI textures
 * Use it to create your own Content Filter Plugin
 
+<img src="./GithubImages/InappropiateTexturesSample2.PNG" align="right"
+     title="Inappropiate Texture Sample 2" width="185" height="718">
 <img src="./GithubImages/SelectFilter.png" align="left"
-     title="Select Filter" width="400" height="519">
+     title="Select Filter" width="567" height="735">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <img src="./GithubImages/InappropiateTextureSample.png" align="left"
      title="Inappropiate Texture Sample 1" width="494" height="406">
-<img src="./GithubImages/InappropiateTexturesSample2.PNG" align="left"
-     title="Inappropiate Texture Sample 2" width="206" height="798">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 ### More Information
