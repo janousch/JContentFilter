@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeJContentBrowser_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000040,
-				0xE852F67C,
+				0x27BE0E9E,
 				0x301E25C7,
 				METADATA_PARAMS(nullptr, 0)
 			};
