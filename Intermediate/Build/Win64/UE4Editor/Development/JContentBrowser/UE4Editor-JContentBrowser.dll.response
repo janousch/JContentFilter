@@ -6,7 +6,7 @@
 /SUBSYSTEM:WINDOWS
 /FIXED:No
 /NXCOMPAT
-/STACK:12000000
+/STACK:5000000
 /DELAY:UNLOAD
 /DLL
 /PDBALTPATH:%_PDB%
@@ -18,7 +18,7 @@
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
 /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
@@ -32,10 +32,10 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"D:\UE4Projects\Spacewood\CommerzReal\Intermediate\Build\Win64\CR_GUIEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
-"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Module.JContentBrowser.cpp.obj"
-"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Module.JContentBrowser.gen.cpp.obj"
-"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Default.rc2.res"
+"D:\UE4Projects\PluginCompiler\Intermediate\Build\Win64\PluginCompilerEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\UE4Projects\PluginCompiler\Plugins\JContentFilter\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Module.JContentBrowser.cpp.obj"
+"D:\UE4Projects\PluginCompiler\Plugins\JContentFilter\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Module.JContentBrowser.gen.cpp.obj"
+"D:\UE4Projects\PluginCompiler\Plugins\JContentFilter\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -60,17 +60,17 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\ContentBrowser\UE4Editor-ContentBrowser.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetTools\UE4Editor-AssetTools.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetRegistry\UE4Editor-AssetRegistry.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-/OUT:"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Binaries\Win64\UE4Editor-JContentBrowser.dll"
-/IMPLIB:"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\UE4Editor-JContentBrowser.suppressed.lib"
-/PDB:"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Binaries\Win64\UE4Editor-JContentBrowser.pdb"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\ContentBrowser\UE4Editor-ContentBrowser.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetTools\UE4Editor-AssetTools.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetRegistry\UE4Editor-AssetRegistry.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+/OUT:"D:\UE4Projects\PluginCompiler\Plugins\JContentFilter\Binaries\Win64\UE4Editor-JContentBrowser.dll"
+/IMPLIB:"D:\UE4Projects\PluginCompiler\Plugins\JContentFilter\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\UE4Editor-JContentBrowser.suppressed.lib"
+/PDB:"D:\UE4Projects\PluginCompiler\Plugins\JContentFilter\Binaries\Win64\UE4Editor-JContentBrowser.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_JContentBrowser

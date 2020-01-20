@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeJContentBrowserExtensions() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UJUnusedAssetsSearchFilter_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * Register custom  filters with the content browser\n */" },
 		{ "IncludePath", "JContentBrowserExtensions.h" },
 		{ "ModuleRelativePath", "Public/JContentBrowserExtensions.h" },
 		{ "ToolTip", "Register custom  filters with the content browser" },
@@ -57,12 +56,12 @@ void EmptyLinkFunctionForGeneratedCodeJContentBrowserExtensions() {}
 		nullptr,
 		nullptr,
 		nullptr,
-		UE_ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
 		0,
 		0x000000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UJUnusedAssetsSearchFilter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UJUnusedAssetsSearchFilter_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UJUnusedAssetsSearchFilter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UJUnusedAssetsSearchFilter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UJUnusedAssetsSearchFilter()
 	{
@@ -73,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeJContentBrowserExtensions() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UJUnusedAssetsSearchFilter, 1294784620);
+	IMPLEMENT_CLASS(UJUnusedAssetsSearchFilter, 1374021254);
 	template<> JCONTENTBROWSER_API UClass* StaticClass<UJUnusedAssetsSearchFilter>()
 	{
 		return UJUnusedAssetsSearchFilter::StaticClass();
