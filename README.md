@@ -6,8 +6,8 @@ This plugin adds a filter to the content browser so that it shows inappropiate t
 Unreal Engine 4 Content Filter for inappropiate textures. The filter will list all textures without a power of two and not marked as UI textures.
 <img src="./GithubImages/PluginBrowser.PNG" align="left"
      title="Plugin Browser" width="938" height="151">
-<br>
-<br>
+     
+<br><br><br><br><br>
 
 ## [How It Works](https://youtu.be/JsO7D6tR1l4)
 
@@ -32,12 +32,12 @@ Unreal Engine 4 Content Filter for inappropiate textures. The filter will list a
      title="Select Filter" width="567" height="735">
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <img src="./GithubImages/InappropiateTextureSample.png" align="left"
      title="Inappropiate Texture Sample 1" width="494" height="406">
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 
 ### More Information
