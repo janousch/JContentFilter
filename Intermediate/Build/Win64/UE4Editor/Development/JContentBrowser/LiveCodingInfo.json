@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.JContentBrowser.cpp.obj": [
+			"JContentBrowser.cpp.obj",
+			"JContentBrowserExtensions.cpp.obj"
+		],
+		"Module.JContentBrowser.gen.cpp.obj": [
+			"JContentBrowser.init.gen.cpp.obj",
+			"JContentBrowserExtensions.gen.cpp.obj"
+		]
+	}
+}

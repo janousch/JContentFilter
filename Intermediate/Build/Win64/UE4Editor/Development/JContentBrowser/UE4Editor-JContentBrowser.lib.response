@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-JContentBrowser.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE4Projects\Spacewood\CommerzReal\Intermediate\Build\Win64\CR_GUIEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Module.JContentBrowser.cpp.obj"
+"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Module.JContentBrowser.gen.cpp.obj"
+"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\Default.rc2.res"
+/OUT:"D:\UE4Projects\Spacewood\CommerzReal\Plugins\JContentBrowser\Intermediate\Build\Win64\UE4Editor\Development\JContentBrowser\UE4Editor-JContentBrowser.lib"
+/INCLUDE:IMPLEMENT_MODULE_JContentBrowser
