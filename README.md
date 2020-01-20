@@ -22,7 +22,7 @@ Unreal Engine 4 Content Filter for inappropiate textures. The filter will list a
 
 ## Usage
 
-* Use it to find textures in your project where you can't use mip mapping
+* Use it to find textures in your project where you need texture streaming or mip mapping
 * Use it to find textures in your project where you forgot to mark them as UI textures
 * Use it to create your own Content Filter Plugin
 
